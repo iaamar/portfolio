@@ -170,7 +170,7 @@ const About = () => {
             {/* Resume */}
             <Tilt className="h-full max-[1000px]:my-14">
               <div class="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none">
-                <a href={resume} title="Amar Nagargoje Resume" target="_blank" className="py-3 px-8 rounded-xl outline-none text-white font-bold z-10">
+                <a href="https://drive.google.com/file/d/1XIThvUR4mbj2tYyjSKZ5jrng-OPw81QG/view" title="Amar Nagargoje Resume" target="_blank" className="py-3 px-8 rounded-xl outline-none text-white font-bold z-10">
                   <span className="hidden sm:inline">View</span> Resume
                 </a>
               </div>
