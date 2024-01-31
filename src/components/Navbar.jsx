@@ -123,7 +123,7 @@ const Navbar = () => {
                     setActive(null);
                   }}
                 >
-                  <a href={resume} title="Amar Nagargoje Resume" target="_blank">{nav.title}</a>
+                  <a href="https://drive.google.com/file/d/1XIThvUR4mbj2tYyjSKZ5jrng-OPw81QG/view" title="Amar Nagargoje Resume" target="_blank">{nav.title}</a>
                 </li>
               ) : (
                 <li
