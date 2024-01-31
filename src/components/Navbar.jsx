@@ -55,7 +55,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(null)}>
                 {/* Render something else for the resume link */}
-                <a href={resume} title="Amar Nagargoje Resume" target="_blank">
+                <a href="https://drive.google.com/file/d/1XIThvUR4mbj2tYyjSKZ5jrng-OPw81QG/view" title="Amar Nagargoje Resume" target="_blank">
                   {nav.title}
                 </a>
               </li>
