@@ -1,3 +1,4 @@
+import { m } from "framer-motion";
 import {
   webdev,
   css,
@@ -26,6 +27,12 @@ import {
   outlook,
   me,
   resume,
+  shoestrideAR,
+  aws,
+  python,
+  cpp,
+  mcts,
+  care,
   coforge,
   ombre,
   software_engineer,
@@ -122,7 +129,7 @@ const technologies = [
     icon: threejs_inverted,
   },
   {
-    name: "dart",
+    name: "Dart",
     icon: dart,
   },
   {
@@ -130,7 +137,7 @@ const technologies = [
     icon: swift,
   },
   {
-    name: "nodejs",
+    name: "NodeJS",
     icon: nodejs,
   },
   {
@@ -138,29 +145,41 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "tailwindcss",
+    name: "Tailwindcss",
     icon: tailwind,
   },
   {
-    name: "mongodb",
+    name: "Mongodb",
     icon: mongodb,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "flutter",
+    name: "Flutter",
     icon: flutter,
   },
   {
-    name: "postman",
+    name: "Postman",
     icon: postman,
   },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  }
 ];
 
 const experiences = [
@@ -193,6 +212,72 @@ const experiences = [
 const testimonials = [];
 
 const projects = [
+  {
+    name: "ShoeStrideAR",
+    description:
+      "The proposed mobile app aims to disrupt the traditional shoe shopping experience by introducing augmented reality (AR) technology to the process. In today's era of online shopping, one of the primary challenges faced by consumers, especially in the footwear industry, is the inability to physically try on products before making a purchase. This limitation often leads to uncertainty and dissatisfaction among shoppers and can result in lower conversion rates for retailers. To address this challenge, our project focuses on developing a mobile application that leverages AR to enable users to virtually try on shoes in real-time.",
+    tags: [
+      {
+        name: "Swift",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "blue-text-gradient",
+      },{
+        name: "AR/VR",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "green-text-gradient",
+      },
+    ],
+    image: shoestrideAR,
+    source_code_link: "https://github.com/iaamar/ShoeStrideAR",
+  },
+  {
+    name: "Monte Carlo Tree Search (MCTS) for Tic-tac-toe and Connect Four",
+    description:
+      "This project implements the Monte Carlo Tree Search (MCTS) algorithm for two classic games: Tic-tac-toe and Connect Four. MCTS is a search technique used in decision processes, notably in AI applications for game-playing. This repository contains the implementation details, optimizations, performance evaluations, and all associated code.",
+    tags: [
+      {
+        name: "Java",
+        color: "green-text-gradient",
+      },
+    ],
+    image: mcts,
+    source_code_link: "https://github.com/iaamar/INFO6205-MCTS-FinalProject",
+  },
+  {
+    name: "Care+",
+    description:
+      "This app is build for checking and maintaining EGC Data and make Decision on Data using SVM (Simple Vector Machine) Model",
+    tags: [
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "C++",
+        color: "red-text-gradient",
+      },
+    ],
+    image: care,
+    source_code_link: "https://github.com/iaamar/Health-AI2",
+  },
   {
     name: "Last Minute Ticket Reservation System [Sponsor - Indian Railways]",
     description:

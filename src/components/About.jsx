@@ -56,7 +56,7 @@ const About = () => {
         scrub: true,
         pinSpacing: false,
         onEnter: () => {
-          setCurrentBG('#1e0a55');
+          setCurrentBG('#050816');
           gsap.to(textRef.current, {
             duration: 1
           })
@@ -114,8 +114,8 @@ const About = () => {
             {/* Right Column */}
             {/* Photo */}
             <div className="xs:w-[350px] xs:h-[350px] w-full h-full m-auto max-[1000px]:my-14">
-              <div className="xs:w-[375px] w-full green-pink-gradient p-[4px] rounded-[20px] shadow-card">
-                <div className="bg-tertiary rounded-[20px] min-h-[250px] flex justify-evenly items-center flex-col overflow-hidden">
+              <div className="xrelative -mt-40 s:w-[375px] w-full green-pink-gradient p-[4px] rounded-[20px] shadow-card">
+                <div className="bg-tertiary rounded-[20px] min-h-[200px] flex justify-evenly items-center flex-col overflow-hidden">
                   <img
                     src={me}
                     alt="Amar Nagargoje Profile Picture"
