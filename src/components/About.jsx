@@ -95,7 +95,7 @@ const About = () => {
                 Northeastern University set to graduate with Master's
                 by May 2025. I'm currently searching for Summer 2024 SWE internships.
                 <br /> <br />
-                With two years of experience, my diverse portfolio is a testament to
+                With three years of experience, my diverse portfolio is a testament to
                 my unquenchable curiosity and unwavering drive to ignite impactful innovation.
                 I'm always in pursuit of new pathways to cultivate meaningful change.
                 <br /> <br />
