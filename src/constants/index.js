@@ -184,7 +184,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer ",
+    title: "Software Engineer",
     company_name: "Coforge",
     icon: coforge,
     iconBg: "#383E56",
@@ -194,6 +194,16 @@ const experiences = [
       "Built technical solutions in collaboration with creative directors and reviewed code with to meet business requirements, resulting in a 40% improvement in project delivery time",
       "Spearheaded cross-regional collaboration with teams in India and Singapore to lead project-wide efforts in writing technical documentation for new features, resulting in an 80% reduction in customer support issues and a 25% increase in product utilization",
       "Developed and debugged backend and frontend at a production level, collaborating with managers to ensure the robustness of applications and streamline processes. Acquired a strong understanding of software fundamentals, encompassing software design, specifications, CI/CD, code modularity, and maintainability",
+    ],
+  },
+  {
+    title: "Co-founder",
+    company_name: "AtherAR",
+    icon: null,
+    iconBg: "#E6DEDD",
+    date: "March 2023 - Present",
+    points: [
+      "Building AR/VR products",
     ],
   },
   {
