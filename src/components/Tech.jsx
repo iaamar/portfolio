@@ -22,7 +22,7 @@ const Tech = () => {
           key={technology.name}
           >
             <div className='xs:w-[115px] w-full justify-items-center text-center'>
-              <div className='w-28 h-27 p-[2px] green-pink-gradient rounded-full' style={{ transform: 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)' }}>
+              <div className='w-28 h-27 p-[2px] rounded-full' style={{ transform: 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)' }}>
                 <div class="bg-tertiary rounded-full py-5 flex justify-evenly items-center flex-col">
                     <img src={technology.icon} class="w-16 h-16 object-contain" alt={technology.name}/>
                 </div>

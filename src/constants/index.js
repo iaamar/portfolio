@@ -90,15 +90,15 @@ export const navMedia = [
 
 const services = [
   {
-    title: "Software Engineer",
+    title: "Full Stack Software Developer",
     icon: software_engineer,
   },
   {
-    title: "Web Developer",
+    title: "GenAI Developer",
     icon: webdev,
   },
   {
-    title: "Developer (Android/iOS)",
+    title: "Mobile App Developer",
     icon: mobiledev,
   },
 ];
