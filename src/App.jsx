@@ -43,6 +43,7 @@ const App = () => {
         <div className='relative z-0'>
           <Contact />
         </div>
+       <div className="flex justify-center"> Made with ❤️ by Amar</div>
       </div>
 
       {showBackToTop && (

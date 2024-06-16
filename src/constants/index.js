@@ -203,7 +203,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "March 2023 - Present",
     points: [
-      "Building AR/VR products",
+      "Building AR/VR products using swift",
     ],
   },
   {
@@ -211,7 +211,7 @@ const experiences = [
     company_name: "Ombre",
     icon: ombre,
     iconBg: "#E6DEDD",
-    date: "June 2023 - September 2023",
+    date: "Sept 2020 - March 2021",
     points: [
       "Built frontend, backend, and cloud deployments for mobile apps, resulting in a 20% improvement in application performance",
       "Transformed notification systems minimizing frontend computation which effectuated a remarkable 20x upswing in appli- cation downloads over 4 months",
