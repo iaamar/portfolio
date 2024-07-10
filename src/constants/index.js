@@ -387,43 +387,7 @@ const projects = [
     image: baseball,
     source_code_link:
       "https://drive.google.com/drive/folders/1I5OcpzsKWeBalX_yiq7ki040db3mBfwc?usp=sharing",
-  },
-  {
-    name: "Personal Website",
-    description:
-      "Welcome to my website! This is my first project using ThreeJS and React. I want to give special thanks to JavaScript Mastery for the ThreeJS template, which I heavily modified to my liking. I also modified the magical particles effect by Eli Shmerler to fit my website, learning about vertex and fragment shaders along the way. Hope you all enjoyed and learned a lot about me!",
-    tags: [
-      {
-        name: "ThreeJS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "React",
-        color: "green-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Shaders",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Vercel",
-        color: "green-text-gradient",
-      },
-    ],
-    image: me,
-  },
+  }
 ];
 
 const programs = [
