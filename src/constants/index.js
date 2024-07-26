@@ -40,7 +40,6 @@ import {
   dart,
   postman,
   swift,
-
 } from "../assets";
 
 export const navLinks = [
@@ -179,7 +178,7 @@ const technologies = [
   {
     name: "AWS",
     icon: aws,
-  }
+  },
 ];
 
 const experiences = [
@@ -190,8 +189,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2021 - Sept 2023",
     points: [
+      "Integrated 20+ microservices addressing low-latency, scalability resulting in $240K+ revenue growth",
+      "Spearheaded development of dynamic web apps using Java & JavaScript, improving security & database querying, resulting in a 17% improvement in response time",
+      "Revamped resource-intensive SQL queries into joins, optimizing data retrieval efficiency by 30%",
+      "Demonstrated SDLC expertise by leading code reviews, testing, and cross-functional collaboration from design to production using AWS, Spring-boot framework, achieving an 80% faster delivery time",
+      "Developed and maintained clusters, enhancing system reliability and uptime. Adapted to changing client requirements, delivering high-quality solutions",
       "Lead a group of 3, implemented scalable production code for car parks project led by Singapore govt, resulting in a 40% increase in efficiency and sign-off time",
-      "Built technical solutions in collaboration with creative directors and reviewed code with to meet business requirements, resulting in a 40% improvement in project delivery time",
       "Spearheaded cross-regional collaboration with teams in India and Singapore to lead project-wide efforts in writing technical documentation for new features, resulting in an 80% reduction in customer support issues and a 25% increase in product utilization",
       "Developed and debugged backend and frontend at a production level, collaborating with managers to ensure the robustness of applications and streamline processes. Acquired a strong understanding of software fundamentals, encompassing software design, specifications, CI/CD, code modularity, and maintainability",
     ],
@@ -202,9 +205,7 @@ const experiences = [
     icon: null,
     iconBg: "#E6DEDD",
     date: "March 2023 - Present",
-    points: [
-      "Building AR/VR products using swift",
-    ],
+    points: ["Building AR/VR products using swift"],
   },
   {
     title: "Software Engineer Intern",
@@ -242,7 +243,8 @@ const projects = [
       {
         name: "NodeJs",
         color: "blue-text-gradient",
-      },{
+      },
+      {
         name: "AR/VR",
         color: "green-text-gradient",
       },
@@ -387,7 +389,7 @@ const projects = [
     image: baseball,
     source_code_link:
       "https://drive.google.com/drive/folders/1I5OcpzsKWeBalX_yiq7ki040db3mBfwc?usp=sharing",
-  }
+  },
 ];
 
 const programs = [
