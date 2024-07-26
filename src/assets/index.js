@@ -26,7 +26,7 @@ import swift from "./tech/swift.png";
 import github from "./logo/github.png";
 import linkedin from "./logo/linkedin.png";
 import outlook from "./logo/outlook.png";
-import me from "./personal/amarphoto.jpg";
+import me from "./personal/amar_photo1.jpg";
 import shoestrideAR from "../assets/projects/shoestridear.png"
 import python from "./tech/python.png";
 import cpp from "./tech/cpp.png";
