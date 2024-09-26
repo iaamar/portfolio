@@ -6,6 +6,7 @@ import {
   figma,
   sih,
   git,
+  meta,
   close,
   html,
   javascript,
@@ -40,6 +41,7 @@ import {
   dart,
   postman,
   swift,
+  mit,
 } from "../assets";
 
 export const navLinks = [
@@ -89,12 +91,12 @@ export const navMedia = [
 
 const services = [
   {
-    title: "Full Stack Software Developer",
-    icon: software_engineer,
-  },
-  {
     title: "GenAI Developer",
     icon: webdev,
+  },
+  {
+    title: "Full Stack Software Developer",
+    icon: software_engineer,
   },
   {
     title: "Mobile App Developer",
@@ -187,7 +189,7 @@ const experiences = [
     company_name: "Coforge",
     icon: coforge,
     iconBg: "#383E56",
-    date: "July 2021 - Sept 2023",
+    date: "June 2021 - Sept 2023",
     points: [
       "Integrated 20+ microservices addressing low-latency, scalability resulting in $240K+ revenue growth",
       "Spearheaded development of dynamic web apps using Java & JavaScript, improving security & database querying, resulting in a 17% improvement in response time",
@@ -394,13 +396,35 @@ const projects = [
 
 const programs = [
   {
+    company: "Meta Developers Community",
+    title: "Hackathon Winner",
+    icon: meta,
+    date: "",
+    description:
+      "Meta Developers Community for Learn - an EdTech app for disabled children (AI/NLP/openCV)"
+  },
+  {
     company: "Smart India Hackathon",
-    title: "Team Lead",
+    title: "Finalist",
     icon: sih,
-    date: "Dec 2020 - Dec 2020",
+    date: "",
     description:
       "Led a dynamic team in various hackathons, successfully developed innovative projects in machine learning, Python, and the MERN stack. Demonstrated strong leadership and technical expertise in project ideation, planning, and execution.",
   },
+  {
+    company: "MIT ADT University",
+    title: "Academic Scholar",
+    icon: mit,
+    date: "",
+    description: "Awarded for academic excellence in the field of Computer Science",
+  },
+  {
+    company: "Google / Oracle",
+    title: "GenAI, Machine Learning, Java, SQL, Python Certified",
+    icon: mit,
+    date: "",
+    description: "https://tinyurl.com/5eduhme5",
+  }
 ];
 
 export {

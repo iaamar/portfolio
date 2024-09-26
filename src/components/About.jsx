@@ -97,7 +97,7 @@ const About = () => {
       <div ref={aboutRef}>
         <motion.div variants={textVariant()}>
           <div variants={textVariant()}>
-            <h2 className={styles.sectionHeadText}>Hey, I'm Amar!</h2>
+            <h2 className={styles.heroSubText}>Hey, I'm Amar!</h2>
           </div>
         </motion.div>
 
@@ -112,7 +112,7 @@ const About = () => {
             {/* Left Column */}
             <div className="flex flex-col items-center min-[1000px]:items-start">
               <p
-                className="mt-4 text-white text-[17px] min-[1000px]:max-w-lg w-full leading-[30px]"
+                className="mt-4 text-white text-[14px] min-[1000px]:max-w-lg w-full leading-[30px]"
                 style={{ textAlign: "justify" }}
               >
                 I'm a master's student studying Computer Software at
@@ -140,13 +140,13 @@ const About = () => {
           >
             {/* Right Column */}
             {/* Photo */}
-            <div className="xs:w-[350px] xs:h-[350px] w-full h-full m-auto max-[1000px]:my-14">
-              <div className="xrelative -mt-40 s:w-[375px] w-full hover:green-pink-gradient p-[4px] rounded-[20px] shadow-card">
-                <div className="bg-tertiary rounded-[20px] min-h-[200px] flex justify-evenly items-center flex-col overflow-hidden">
+            <div className="xs:w-[350px] xs:h-[350px] w-full h-full m-auto max-[1000px]:my-14 flex justify-center items-center">
+              <div className="relative w-full hover:green-pink-gradient p-[4px] rounded-[20px] shadow-card">
+                <div className="bg-tertiary rounded-[20px] min-h-[200px] flex justify-center items-center overflow-hidden">
                   <img
                     src={me}
                     alt="Amar Nagargoje Profile Picture"
-                    className="w-full h-full object-contain"
+                    className="object-contain h-full"
                   />
                 </div>
               </div>
@@ -157,52 +157,7 @@ const About = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="flex mt-6 flex-wrap justify-center sm:justify-start"
-        >
-          {/* LinkedIn Button
-            <Tilt className="h-full max-[1000px]:my-14">
-              <div class="p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none">
-                <a href="https://www.linkedin.com/in/amar-nagargoje/" target="_blank" rel="noopener noreferrer" >
-                  <div class="rounded-full px-3 py-2 flex justify-evenly items-center">
-                      <img src={linkedin} alt="LinkedIn Logo" class="w-[40px] h-[40px] object-contain" />
-                      <p class="text-[21px]">LinkedIn</p>
-                  </div>
-                </a>
-              </div>
-            </Tilt>
-
-            GitHub Button
-            <Tilt className="h-full max-[1000px]:my-14">
-              <div class="p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none">
-                <a href="https://github.com/iaamar" target="_blank" rel="noopener noreferrer" >
-                  <div class="rounded-full px-3 py-2 flex justify-evenly items-center">
-                      <img src={github} alt="GitHub Logo" class="w-[40px] h-[40px] object-contain" />
-                      <p class="text-[21px]">GitHub</p>
-                  </div>
-                </a>
-              </div>
-            </Tilt>
-
-            Outlook Button
-            <Tilt className="h-full max-[1000px]:my-14">
-              <div class="p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none">
-                <a href="mailto:nagargoje.a@northeastern.edu" target="_blank" rel="noopener noreferrer" >
-                  <div class="rounded-full px-3 py-2 flex justify-evenly items-center">
-                      <img src={outlook} alt="Outlook Logo" class="w-[40px] h-[40px] object-contain" />
-                      <p class="text-[21px]">Email</p>
-                  </div>
-                </a>
-              </div>
-            </Tilt>
-
-            Resume
-            <Tilt className="h-full max-[1000px]:my-14">
-              <div class="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4 select-none">
-                <a href="https://drive.google.com/file/d/1XIThvUR4mbj2tYyjSKZ5jrng-OPw81QG/view" title="Amar Nagargoje Resume" target="_blank" className="py-3 px-8 rounded-xl outline-none text-white font-bold z-10">
-                   Resume
-                </a>
-              </div>
-            </Tilt> */}
-        </motion.p>
+        ></motion.p>
 
         <div className="mt-20 flex flex-wrap gap-10 justify-center">
           {services.map((service, index) => (

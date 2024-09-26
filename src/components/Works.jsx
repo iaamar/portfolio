@@ -93,7 +93,6 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          <b>Users are my first priority.</b> Every app I make, I ensure quality user experience.
           These following projects are briefly described, showing my various experiences and demonstrating my abilities.
           You can find more on my <a href="https://github.com/iaamar" target="_blank" rel="noopener noreferrer"><u>GitHub</u></a>.
         </motion.p>

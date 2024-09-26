@@ -40,6 +40,8 @@ import software_engineer from "./skills/software_engineer.jpeg";
 import railway from "./projects/railway.png";
 import threejs_inverted from "./tech/threejs_inverted.png";
 import sih from "./logo/sih2.jpeg";
+import meta from "./logo/meta-logo.png";
+import mit from './logo/mit.png';
 
 export {
   backend,
@@ -52,6 +54,8 @@ export {
   close,
   git,
   html,
+  meta,
+  mit,
   javascript,
   mongodb,
   nodejs,
