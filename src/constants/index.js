@@ -191,14 +191,14 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2021 - Sept 2023",
     points: [
-      "Integrated 20+ microservices addressing low-latency, scalability resulting in $240K+ revenue growth",
-      "Spearheaded development of dynamic web apps using Java & JavaScript, improving security & database querying, resulting in a 17% improvement in response time",
-      "Revamped resource-intensive SQL queries into joins, optimizing data retrieval efficiency by 30%",
-      "Demonstrated SDLC expertise by leading code reviews, testing, and cross-functional collaboration from design to production using AWS, Spring-boot framework, achieving an 80% faster delivery time",
-      "Developed and maintained clusters, enhancing system reliability and uptime. Adapted to changing client requirements, delivering high-quality solutions",
-      "Lead a group of 3, implemented scalable production code for car parks project led by Singapore govt, resulting in a 40% increase in efficiency and sign-off time",
-      "Spearheaded cross-regional collaboration with teams in India and Singapore to lead project-wide efforts in writing technical documentation for new features, resulting in an 80% reduction in customer support issues and a 25% increase in product utilization",
-      "Developed and debugged backend and frontend at a production level, collaborating with managers to ensure the robustness of applications and streamline processes. Acquired a strong understanding of software fundamentals, encompassing software design, specifications, CI/CD, code modularity, and maintainability",
+      // "Integrated 20+ microservices addressing low-latency, scalability resulting in $240K+ revenue growth",
+      // "Spearheaded development of dynamic web apps using Java & JavaScript, improving security & database querying, resulting in a 17% improvement in response time",
+      // "Revamped resource-intensive SQL queries into joins, optimizing data retrieval efficiency by 30%",
+      // "Demonstrated SDLC expertise by leading code reviews, testing, and cross-functional collaboration from design to production using AWS, Spring-boot framework, achieving an 80% faster delivery time",
+      // "Developed and maintained clusters, enhancing system reliability and uptime. Adapted to changing client requirements, delivering high-quality solutions",
+      // "Lead a group of 3, implemented scalable production code for car parks project led by Singapore govt, resulting in a 40% increase in efficiency and sign-off time",
+      // "Spearheaded cross-regional collaboration with teams in India and Singapore to lead project-wide efforts in writing technical documentation for new features, resulting in an 80% reduction in customer support issues and a 25% increase in product utilization",
+      // "Developed and debugged backend and frontend at a production level, collaborating with managers to ensure the robustness of applications and streamline processes. Acquired a strong understanding of software fundamentals, encompassing software design, specifications, CI/CD, code modularity, and maintainability",
     ],
   },
   {
@@ -216,8 +216,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sept 2020 - March 2021",
     points: [
-      "Built frontend, backend, and cloud deployments for mobile apps, resulting in a 20% improvement in application performance",
-      "Transformed notification systems minimizing frontend computation which effectuated a remarkable 20x upswing in appli- cation downloads over 4 months",
+      // "Built frontend, backend, and cloud deployments for mobile apps, resulting in a 20% improvement in application performance",
+      // "Transformed notification systems minimizing frontend computation which effectuated a remarkable 20x upswing in appli- cation downloads over 4 months",
     ],
   },
 ];

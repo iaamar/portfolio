@@ -115,18 +115,10 @@ const About = () => {
                 className="mt-4 text-white text-[14px] min-[1000px]:max-w-lg w-full leading-[30px]"
                 style={{ textAlign: "justify" }}
               >
-                I'm a master's student studying Computer Software at
-                Northeastern University set to graduate by May 2025.
-                <br /> <br />
-                I'm passionate about ML, SW Development and leveraging cutting
-                edge technologies to develop innovative solutions.
-                <br /> <br />
-                With 3 years of experience, my diverse portfolio is a testament
-                to my unquenchable curiosity and unwavering drive to ignite
-                impactful innovation.
-                <br /> <br />I love working with people, and I'm always looking
-                for new opportunities to grow. If this interests you, check out
-                my resume and links below! And feel free to reach out at
+                A process driven software Engineering graduate student at Northeastern University, skilled in building high-quality, scalable, and distributed systems for web and mobile.
+                <br></br><br></br> My expertise includes microservices and RESTful API development with Spring Boot, Java, Python, and AWS, with a focus on performance and reliability.
+                <br></br><br></br> I bring hands-on experience with machine learning pipelines in AWS SageMaker, DevOps/MLOps, and LLM-based applications using advanced fine-tuning techniques in PyTorch and TensorFlow. Passionate about cutting-edge technologies, I’m dedicated to continuous learning and ready to make a meaningful impact in any team.<br></br>
+                <br></br> Feel free to reach out at
                 <a href="mailto:nagargoje.a@northeastern.edu">
                   {" "}
                   <u>nagargoje.a@northeastern.edu</u>{" "}
