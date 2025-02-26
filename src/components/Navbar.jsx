@@ -47,30 +47,28 @@ const Navbar = () => {
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((nav) =>
-            nav.id === "resume" ? (
-              <li key={nav.id}
+          {navLinks.map((nav) => (
+            <li 
+              key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(null)}>
-                {/* Render something else for the resume link */}
-                <a href="https://drive.google.com/file/d/1Cp0s_s5_JQaP6BHA920Bpd-P8CmBHo76/view?usp=sharing" title="Amar Nagargoje Resume" target="_blank">
+              onClick={() => setActive(null)}
+            >
+              {nav.link ? (
+                <a 
+                  href={nav.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  title={nav.title}
+                >
                   {nav.title}
                 </a>
-              </li>
-            ) : (
-              <li
-                key={nav.id}
-                className={`${
-                  active === nav.title ? "text-white" : "text-secondary"
-                } hover:text-white text-[18px] font-medium cursor-pointer`}
-                onClick={() => setActive(nav.title)}
-              >
+              ) : (
                 <a href={`#${nav.id}`}>{nav.title}</a>
-              </li>
-            )
-          )}
+              )}
+            </li>
+          ))}
         </ul>
 
         <ul className='list-none hidden sm:flex flex-row gap-5'>
@@ -123,7 +121,7 @@ const Navbar = () => {
                     setActive(null);
                   }}
                 >
-                  <a href="https://drive.google.com/file/d/1XIThvUR4mbj2tYyjSKZ5jrng-OPw81QG/view" title="Amar Nagargoje Resume" target="_blank">{nav.title}</a>
+                  <a href="https://drive.google.com/file/d/16XT-h_V-wTWIEl7fD6ej4eH4IzXs9YlF/view" title="Amar Nagargoje Resume" target="_blank">{nav.title}</a>
                 </li>
               ) : (
                 <li

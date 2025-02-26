@@ -31,6 +31,7 @@ import shoestrideAR from "../assets/projects/shoestridear.png"
 import python from "./tech/python.png";
 import cpp from "./tech/cpp.png";
 import aws from "./tech/aws.png";
+import webapp from "./projects/webapp.jpeg";
 import care from "./projects/care+.png";
 import mcts from "./projects/mcts.jpeg";
 import resume from "./personal/Amar_Nagargoje_Resumeog.pdf";
@@ -75,6 +76,7 @@ export {
   outlook,
   me,
   shoestrideAR,
+  webapp,
   python,
   cpp,
   aws,

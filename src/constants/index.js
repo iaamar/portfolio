@@ -29,6 +29,7 @@ import {
   me,
   resume,
   shoestrideAR,
+  webapp,
   aws,
   python,
   cpp,
@@ -46,28 +47,18 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
     id: "projects",
-    title: "Projects",
+    title: "Full Stack Projects",
   },
   {
-    id: "programs",
-    title: "Leadership",
-  },
-  {
-    id: "contact",
-    title: "Contact",
+    id: "ai-portfolio",
+    title: "AI Portfolio",
+    link: "https://nagargojeamar.lovable.app/"
   },
   {
     id: "resume",
     title: "Resume",
+    link: "https://drive.google.com/file/d/16XT-h_V-wTWIEl7fD6ej4eH4IzXs9YlF/view"
   },
 ];
 
@@ -186,6 +177,22 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer",
+    company_name: "Cognitive",
+    icon: null,
+    iconBg: "#383E56",
+    date: "May 2024 - Aug 2024",
+    points: [
+      // "Integrated 20+ microservices addressing low-latency, scalability resulting in $240K+ revenue growth",
+      // "Spearheaded development of dynamic web apps using Java & JavaScript, improving security & database querying, resulting in a 17% improvement in response time",
+      // "Revamped resource-intensive SQL queries into joins, optimizing data retrieval efficiency by 30%",
+      // "Demonstrated SDLC expertise by leading code reviews, testing, and cross-functional collaboration from design to production using AWS, Spring-boot framework, achieving an 80% faster delivery time",
+      // "Developed and maintained clusters, enhancing system reliability and uptime. Adapted to changing client requirements, delivering high-quality solutions",
+      // "Lead a group of 3, implemented scalable production code for car parks project led by Singapore govt, resulting in a 40% increase in efficiency and sign-off time",
+      // "Spearheaded cross-regional collaboration with teams in India and Singapore to lead project-wide efforts in writing technical documentation for new features, resulting in an 80% reduction in customer support issues and a 25% increase in product utilization",
+      // "Developed and debugged backend and frontend at a production level, collaborating with managers to ensure the robustness of applications and streamline processes. Acquired a strong understanding of software fundamentals, encompassing software design, specifications, CI/CD, code modularity, and maintainability",
+    ],
+  },{
+    title: "Software Engineer",
     company_name: "Coforge",
     icon: coforge,
     iconBg: "#383E56",
@@ -226,6 +233,30 @@ const testimonials = [];
 
 const projects = [
   {
+    name: "Webapp",
+    description:
+      "This project is designed to leverage cloud-native technologies to build a scalable, secure, and automated deployment infrastructure. With a focus on automation, security, and performance, it integrates CI/CD pipelines, serverless computing, and microservices architecture to create a robust and efficient system.",
+    tags: [
+      {
+        name: "AWS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webapp,
+    source_code_link: "https://github.com/iaamar/webapp",
+  },{
     name: "ShoeStrideAR",
     description:
       "The proposed mobile app aims to disrupt the traditional shoe shopping experience by introducing augmented reality (AR) technology to the process. In today's era of online shopping, one of the primary challenges faced by consumers, especially in the footwear industry, is the inability to physically try on products before making a purchase. This limitation often leads to uncertainty and dissatisfaction among shoppers and can result in lower conversion rates for retailers. To address this challenge, our project focuses on developing a mobile application that leverages AR to enable users to virtually try on shoes in real-time.",
@@ -320,7 +351,7 @@ const projects = [
   {
     name: "Work Wise - A Free Project Management Tool",
     description:
-      "Implemented production level MERN app, allowing users to perform CRUD on projects, users, workitems, drag and drop items in kanban board. Implemented sections, includes all REST API’s: login, projects, and kanban board.",
+      "Implemented production level MERN app, allowing users to perform CRUD on projects, users, workitems, drag and drop items in kanban board. Implemented sections, includes all REST API's: login, projects, and kanban board.",
     tags: [
       {
         name: "ReactJs",
@@ -363,7 +394,7 @@ const projects = [
     source_code_link: "https://github.com/iaamar/workwise",
   },
   {
-    name: "MoneyBall : A Decision Making Process For Team’s Success in Baseball",
+    name: "MoneyBall : A Decision Making Process For Team's Success in Baseball",
     description:
       "Built an algorithm to predict matches results of baseball for home win or away win and to determine what are the significant variables to win matches. Used data driven decision making process for evaluation of players/teams on previous experiences/perfomance",
     tags: [
