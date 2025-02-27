@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { useBackgroundContext } from "../utils/background.jsx";
 import { gsap, ScrollTrigger } from "gsap/all";
@@ -36,27 +36,26 @@ const ServiceCard = ({ index, title, icon }) => (
   </h3>
 </div> */}
 
-      <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className="relative rounded-[20px] min-h-[280px] overflow-hidden"
-        style={{ minWidth: "280px" }}
+      <Tilt
+        tiltMaxAngleX={45}
+        tiltMaxAngleY={45}
+        scale={1.15}
+        transitionSpeed={450}
       >
-        <div className="relative w-full h-[230px]">
-          <img
-            src={icon}
-            alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
-          />
-        </div>
+        <div className="relative rounded-[20px] min-h-[280px] overflow-hidden" style={{ minWidth: "280px" }}>
+          <div className="relative w-full h-[230px]">
+            <img
+              src={icon}
+              alt="project_image"
+              className="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
 
-        <div className="mt-5  inset-1 flex justify-center items-end">
-          <h3 className="text-white font-semibold text-[16px]">{title}</h3>
+          <div className="mt-5  inset-1 flex justify-center items-end">
+            <h3 className="text-white font-semibold text-[16px]">{title}</h3>
+          </div>
         </div>
-      </div>
+      </Tilt>
     </motion.div>
   </div>
 );
@@ -117,7 +116,7 @@ const About = () => {
               >
                 A process driven software Engineering graduate student at Northeastern University, skilled in building high-quality, scalable, and distributed systems for web and mobile.
                 <br></br><br></br> My expertise includes microservices and RESTful API development with Spring Boot, Java, Python, and AWS, with a focus on performance and reliability.
-                <br></br><br></br> I bring hands-on experience with machine learning pipelines in AWS SageMaker, DevOps/MLOps, and LLM-based applications using advanced fine-tuning techniques in PyTorch and TensorFlow. Passionate about cutting-edge technologies, I’m dedicated to continuous learning and ready to make a meaningful impact in any team.<br></br>
+                <br></br><br></br> I bring hands-on experience with machine learning pipelines in AWS SageMaker, DevOps/MLOps, and LLM-based applications using advanced fine-tuning techniques in PyTorch and TensorFlow. Passionate about cutting-edge technologies, I'm dedicated to continuous learning and ready to make a meaningful impact in any team.<br></br>
                 <br></br> Feel free to reach out at
                 <a href="mailto:nagargoje.a@northeastern.edu">
                   {" "}

@@ -1,5 +1,5 @@
 import {React} from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -23,17 +23,16 @@ const GetLinkButtons = ({ source_code_link = null, youtube_demo_link = null, liv
           <div
             key={link.alt}
             onClick={() => window.open(link.link, '_blank')}
-            
           >
             <Tilt
-              options={{max: 45,
-              scale: 1.15,
-              speed: 450,
-              }} className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
-              <div className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
-                <img src={link.icon} alt={link.alt} className='w-3/4 h-3/4 object-contain' />
-              </div>
-              </Tilt>
+              tiltMaxAngleX={45}
+              tiltMaxAngleY={45}
+              scale={1.15}
+              transitionSpeed={450}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img src={link.icon} alt={link.alt} className='w-3/4 h-3/4 object-contain' />
+            </Tilt>
           </div>
         ))}
     </div>
