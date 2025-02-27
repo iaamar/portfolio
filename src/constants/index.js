@@ -55,11 +55,11 @@ export const navLinks = [
     title: "AI Portfolio",
     link: "https://nagargojeamar.lovable.app/"
   },
-  {
-    id: "resume",
-    title: "Resume",
-    link: "https://drive.google.com/file/d/16XT-h_V-wTWIEl7fD6ej4eH4IzXs9YlF/view"
-  },
+  // {
+  //   id: "resume",
+  //   title: "Resume",
+  //   link: "https://drive.google.com/file/d/16XT-h_V-wTWIEl7fD6ej4eH4IzXs9YlF/view"
+  // },
 ];
 
 export const navMedia = [
