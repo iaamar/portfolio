@@ -53,7 +53,7 @@ export const navLinks = [
   {
     id: "ai-portfolio",
     title: "AI Portfolio",
-    link: "https://generativeamar.lovable.app/"
+    link: "https://amarnagargoje.lovable.app/"
   },
   // {
   //   id: "resume",
